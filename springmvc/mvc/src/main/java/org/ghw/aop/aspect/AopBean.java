@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 public class AopBean {
 	@Pointcut("execution(* org.ghw.aop..*.*(..))")
 	public void method(){
-		System.out.println("method");
+		System.out.println("method1");
 	};
 	
 	@Before("method()")
